@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "credilio"
+  "defaultProject": "credilio",
+  "cli": {
+    "analytics": "d96bf8b6-1b3f-4367-8598-4f309da6924a"
+  }
 }

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { timeStamp } from 'console';
+import { ApiService } from './services/api.services';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'credilio';
+  // title = 'credilio';
+  constructor(private apiService: ApiService){}
+  ngOnInit() {
+
+    this.apiService.getmoviesData().subscribe((res: any) => {
+      if(res) {
+        console.log(res);
+      }
+      
+    })
+  }
 }

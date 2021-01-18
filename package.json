@@ -21,10 +21,7 @@
     "@angular/router": "~11.0.9",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
-    "zone.js": "~0.10.2",
-    "cheerio": "^1.0.0-rc.5",
-    "fs": "0.0.1-security",
-    "request": "^2.88.2"
+    "zone.js": "~0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1100.7",
